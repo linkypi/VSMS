@@ -1,0 +1,366 @@
+
+*****************************       2012/7/2 8:53:05       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.get_DBConnectionString() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 26
+
+
+*****************************       2012/7/2 8:53:05       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.get_DBConnectionString() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 31
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 388
+
+
+*****************************       2012/7/2 8:53:06       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 463
+   在 VSMS.Common.DataHelper.SqlHelper.GetDataListByString[T](String cmdText, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 108
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 226
+
+
+*****************************       2012/7/2 8:53:06       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 233
+   在 VSMS.Models.DAL.AdminsDao.GetModel(String LoginName) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 171
+
+
+*****************************       2012/7/2 8:56:09       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.get_DBConnectionString() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 26
+
+
+*****************************       2012/7/2 8:56:09       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.get_DBConnectionString() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 31
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 388
+
+
+*****************************       2012/7/2 8:56:09       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 463
+   在 VSMS.Common.DataHelper.SqlHelper.GetDataListByString[T](String cmdText, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 108
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 226
+
+
+*****************************       2012/7/2 8:56:45       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 233
+   在 VSMS.Models.DAL.AdminsDao.GetModel(String LoginName) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 171
+
+
+*****************************       2012/7/2 8:57:12       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.get_DBConnectionString() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 26
+
+
+*****************************       2012/7/2 8:57:12       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.get_DBConnectionString() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 31
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 388
+
+
+*****************************       2012/7/2 8:58:42       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 463
+   在 VSMS.Common.DataHelper.SqlHelper.GetDataListByString[T](String cmdText, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 108
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 226
+
+
+*****************************       2012/7/2 8:58:42       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 233
+   在 VSMS.Models.DAL.AdminsDao.GetModel(String LoginName) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 171
+
+
+*****************************       2012/7/2 8:59:11       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.get_DBConnectionString() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 26
+
+
+*****************************       2012/7/2 8:59:16       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.get_DBConnectionString() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 26
+
+
+*****************************       2012/7/2 8:59:22       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.get_DBConnectionString() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 31
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 388
+
+
+*****************************       2012/7/2 8:59:22       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 463
+   在 VSMS.Common.DataHelper.SqlHelper.GetDataListByString[T](String cmdText, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 108
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 226
+
+
+*****************************       2012/7/2 8:59:22       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 233
+   在 VSMS.Models.DAL.AdminsDao.GetModel(String LoginName) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 171
+
+
+*****************************       2012/7/2 8:59:46       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.get_DBConnectionString() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 26
+
+
+*****************************       2012/7/2 8:59:56       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.get_DBConnectionString() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 26
+
+
+*****************************       2012/7/2 9:00:00       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.get_DBConnectionString() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 26
+
+
+*****************************       2012/7/2 9:00:00       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.get_DBConnectionString() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 31
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 388
+
+
+*****************************       2012/7/2 9:00:00       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 463
+   在 VSMS.Common.DataHelper.SqlHelper.GetDataListByString[T](String cmdText, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 108
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 226
+
+
+*****************************       2012/7/2 9:00:01       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 233
+   在 VSMS.Models.DAL.AdminsDao.GetModel(String LoginName) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 171
+
+
+*****************************       2012/7/2 9:01:43       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 尝试为文件 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\VSMS.Web.MVC\App_Data\aspnetdb.mdf 附加自动命名的数据库，但失败。已存在同名的数据库，或指定的文件无法打开或位于 UNC 共享目录中。
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 402
+
+
+*****************************       2012/7/2 9:01:43       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 尝试为文件 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\VSMS.Web.MVC\App_Data\aspnetdb.mdf 附加自动命名的数据库，但失败。已存在同名的数据库，或指定的文件无法打开或位于 UNC 共享目录中。
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 463
+   在 VSMS.Common.DataHelper.SqlHelper.GetDataListByString[T](String cmdText, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 108
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 226
+
+
+*****************************       2012/7/2 9:01:43       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 尝试为文件 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\VSMS.Web.MVC\App_Data\aspnetdb.mdf 附加自动命名的数据库，但失败。已存在同名的数据库，或指定的文件无法打开或位于 UNC 共享目录中。
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 233
+   在 VSMS.Models.DAL.AdminsDao.GetModel(String LoginName) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 171
+
+
+*****************************       2012/7/2 9:04:47       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 无法打开物理文件 "E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\VSMS.Web.MVC\App_Data\aspnetdb.mdf"。操作系统错误 2:"2(系统找不到指定的文件。)"。
+无法将文件 'E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\VSMS.Web.MVC\App_Data\aspnetdb.mdf' 作为数据库 'VSMS'. 附加
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 402
+
+
+*****************************       2012/7/2 9:05:01       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 无法打开物理文件 "E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\VSMS.Web.MVC\App_Data\aspnetdb.mdf"。操作系统错误 2:"2(系统找不到指定的文件。)"。
+无法将文件 'E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\VSMS.Web.MVC\App_Data\aspnetdb.mdf' 作为数据库 'VSMS'. 附加
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 463
+   在 VSMS.Common.DataHelper.SqlHelper.GetDataListByString[T](String cmdText, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 108
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 226
+
+
+*****************************       2012/7/2 9:05:01       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 无法打开物理文件 "E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\VSMS.Web.MVC\App_Data\aspnetdb.mdf"。操作系统错误 2:"2(系统找不到指定的文件。)"。
+无法将文件 'E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\VSMS.Web.MVC\App_Data\aspnetdb.mdf' 作为数据库 'VSMS'. 附加
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 233
+   在 VSMS.Models.DAL.AdminsDao.GetModel(String LoginName) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 171
+
+
+*****************************       2012/7/2 9:05:39       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 用户 '' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 402
+
+
+*****************************       2012/7/2 9:05:39       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 用户 '' 登录失败。
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 463
+   在 VSMS.Common.DataHelper.SqlHelper.GetDataListByString[T](String cmdText, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 108
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 226
+
+
+*****************************       2012/7/2 9:05:39       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 用户 '' 登录失败。
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 233
+   在 VSMS.Models.DAL.AdminsDao.GetModel(String LoginName) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 171
+
+
+*****************************       2012/7/2 9:07:44       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 用户 '' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 402
+
+
+*****************************       2012/7/2 9:07:44       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 用户 '' 登录失败。
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 463
+   在 VSMS.Common.DataHelper.SqlHelper.GetDataListByString[T](String cmdText, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 108
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 226
+
+
+*****************************       2012/7/2 9:07:44       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 用户 '' 登录失败。
+   在 VSMS.Models.DAL.AdminsDao.GetList(String sqlstr, Dictionary`2 inputDic) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 233
+   在 VSMS.Models.DAL.AdminsDao.GetModel(String LoginName) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\AdminsDao.cs:行号 171
+
+
+*****************************       2012/7/2 9:51:42       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 关键字 'group' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 403
+
+
+*****************************       2012/7/2 9:51:42       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 关键字 'group' 附近有语法错误。
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 463
+   在 VSMS.Common.DataHelper.SqlHelper.GetDataListByString[T](String cmdText, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 108
+   在 VSMS.Models.DAL.OrdersDao.GetDeliveryNoteByOID(String oid) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\OrdersDao.cs:行号 444
+
+
+*****************************       2012/7/2 9:52:57       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 关键字 'group' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 403
+
+
+*****************************       2012/7/2 9:52:57       **********************************
+System.Data.SqlClient.SqlException (0x80131904): 关键字 'group' 附近有语法错误。
+   在 VSMS.Common.DataHelper.SqlHelper.GetList[T](String cmdText, CommandType cmdType, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 463
+   在 VSMS.Common.DataHelper.SqlHelper.GetDataListByString[T](String cmdText, Dictionary`2 paramsValue, Dictionary`2 returnValueBinding) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Common\VSMS.DataHelper\SqlHelper.cs:行号 108
+   在 VSMS.Models.DAL.OrdersDao.GetDeliveryNoteByOID(String oid) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\OrdersDao.cs:行号 444
+
+
+*****************************       2012/7/2 9:57:46       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Models.DAL.OrdersDao.GetInspectionSheet() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\OrdersDao.cs:行号 509
+
+
+*****************************       2012/7/2 9:57:46       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Models.DAL.OrdersDao.GetInspectionSheet() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\OrdersDao.cs:行号 515
+   在 VSMS.Models.BLL.OrdersService.GetInspectionSheet(List`1& epList) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.BLL\OrdersService.cs:行号 81
+
+
+*****************************       2012/7/2 10:07:12       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Models.DAL.OrdersDao.GetInspectionSheet() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\OrdersDao.cs:行号 509
+
+
+*****************************       2012/7/2 10:07:12       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Models.DAL.OrdersDao.GetInspectionSheet() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\OrdersDao.cs:行号 515
+   在 VSMS.Models.BLL.OrdersService.GetInspectionSheet(List`1& epList) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.BLL\OrdersService.cs:行号 81
+
+
+*****************************       2012/7/2 10:07:34       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Models.DAL.OrdersDao.GetInspectionSheet() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\OrdersDao.cs:行号 509
+
+
+*****************************       2012/7/2 10:07:34       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Models.DAL.OrdersDao.GetInspectionSheet() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\OrdersDao.cs:行号 515
+   在 VSMS.Models.BLL.OrdersService.GetInspectionSheet(List`1& epList) 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.BLL\OrdersService.cs:行号 81
+
+
+*****************************       2012/7/2 10:10:21       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Models.DAL.VegetableDao.GetInspectionSheetVegetables() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\VegetableDao.cs:行号 400
+
+
+*****************************       2012/7/2 10:10:21       **********************************
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 VSMS.Models.DAL.VegetableDao.GetInspectionSheetVegetables() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.DAL\VegetableDao.cs:行号 406
+   在 VSMS.Models.BLL.VegetableService.GetInspectionSheetVegetabls() 位置 E:\VSMS\7-1-14-00\trunk\dev-2.0\code 2\VSMS\Models\VSMS.BLL\VegetableService.cs:行号 144
+

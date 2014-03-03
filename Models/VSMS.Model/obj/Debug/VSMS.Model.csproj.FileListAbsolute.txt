@@ -1,0 +1,5 @@
+E:\项目\VSMS\VSMS\trunk\dev-3.0\code 2\VSMS\Models\VSMS.Model\bin\Debug\VSMS.Model.dll
+E:\项目\VSMS\VSMS\trunk\dev-3.0\code 2\VSMS\Models\VSMS.Model\bin\Debug\VSMS.Model.pdb
+E:\项目\VSMS\VSMS\trunk\dev-3.0\code 2\VSMS\Models\VSMS.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\项目\VSMS\VSMS\trunk\dev-3.0\code 2\VSMS\Models\VSMS.Model\obj\Debug\VSMS.Model.dll
+E:\项目\VSMS\VSMS\trunk\dev-3.0\code 2\VSMS\Models\VSMS.Model\obj\Debug\VSMS.Model.pdb

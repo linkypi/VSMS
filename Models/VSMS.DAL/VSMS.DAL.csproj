@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2B31254B-CC68-4822-84B7-B68EDE43862B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VSMS.Models.DAL</RootNamespace>
+    <AssemblyName>VSMS.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminsDao.cs" />
+    <Compile Include="AnalyseDataDao.cs" />
+    <Compile Include="CategoryDao.cs" />
+    <Compile Include="DepartmentDao.cs" />
+    <Compile Include="EnterpriseDao.cs" />
+    <Compile Include="OrderDetailDao.cs" />
+    <Compile Include="OrdersDao.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProfitDao.cs" />
+    <Compile Include="ShopingCartDao.cs" />
+    <Compile Include="VegetableDao.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\VSMS.DataHelper\VSMS.DataHelper.csproj">
+      <Project>{67B5D80E-BA36-421D-A69C-431DA8C8CCAC}</Project>
+      <Name>VSMS.DataHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\XphpTool\XphpTool.csproj">
+      <Project>{C1368906-0A44-4123-A10D-D8F75A6C2F79}</Project>
+      <Name>XphpTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VSMS.Model\VSMS.Model.csproj">
+      <Project>{C2B3C990-23B9-4C6E-B5D3-C50C18C06BD1}</Project>
+      <Name>VSMS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VSMS.MVCModels\VSMS.MVCModels.csproj">
+      <Project>{47759BFE-7B14-4E41-ADD4-3A2F283AAB50}</Project>
+      <Name>VSMS.MVCModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

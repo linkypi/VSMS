@@ -1,0 +1,7 @@
+E:\项目\VSMS\VSMS\trunk\dev-3.0\code 2\VSMS\Models\VSMS.MVCModels\bin\Debug\VSMS.MVCModels.dll
+E:\项目\VSMS\VSMS\trunk\dev-3.0\code 2\VSMS\Models\VSMS.MVCModels\bin\Debug\VSMS.MVCModels.pdb
+E:\项目\VSMS\VSMS\trunk\dev-3.0\code 2\VSMS\Models\VSMS.MVCModels\bin\Debug\VSMS.Model.dll
+E:\项目\VSMS\VSMS\trunk\dev-3.0\code 2\VSMS\Models\VSMS.MVCModels\bin\Debug\VSMS.Model.pdb
+E:\项目\VSMS\VSMS\trunk\dev-3.0\code 2\VSMS\Models\VSMS.MVCModels\obj\Debug\ResolveAssemblyReference.cache
+E:\项目\VSMS\VSMS\trunk\dev-3.0\code 2\VSMS\Models\VSMS.MVCModels\obj\Debug\VSMS.MVCModels.dll
+E:\项目\VSMS\VSMS\trunk\dev-3.0\code 2\VSMS\Models\VSMS.MVCModels\obj\Debug\VSMS.MVCModels.pdb

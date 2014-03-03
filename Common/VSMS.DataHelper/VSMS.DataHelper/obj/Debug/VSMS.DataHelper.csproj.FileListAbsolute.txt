@@ -1,0 +1,7 @@
+D:\外包项目\中山市安健（圣师）蔬菜流通管理系统\trunk\dev-2.0\code\VSMS\VSMS.DataHelper\bin\Debug\DataHelper.dll
+D:\外包项目\中山市安健（圣师）蔬菜流通管理系统\trunk\dev-2.0\code\VSMS\VSMS.DataHelper\bin\Debug\DataHelper.pdb
+D:\外包项目\中山市安健（圣师）蔬菜流通管理系统\trunk\dev-2.0\code\VSMS\VSMS.DataHelper\bin\Debug\XphpTool.dll
+D:\外包项目\中山市安健（圣师）蔬菜流通管理系统\trunk\dev-2.0\code\VSMS\VSMS.DataHelper\bin\Debug\XphpTool.pdb
+D:\外包项目\中山市安健（圣师）蔬菜流通管理系统\trunk\dev-2.0\code\VSMS\VSMS.DataHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\外包项目\中山市安健（圣师）蔬菜流通管理系统\trunk\dev-2.0\code\VSMS\VSMS.DataHelper\obj\Debug\DataHelper.dll
+D:\外包项目\中山市安健（圣师）蔬菜流通管理系统\trunk\dev-2.0\code\VSMS\VSMS.DataHelper\obj\Debug\DataHelper.pdb

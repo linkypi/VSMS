@@ -1,0 +1,147 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <link rel="stylesheet" type="text/css" href="../../../Content/main.css" />
+</head>
+<body>
+    <!--top顶部状态栏-->
+	<div class="top">
+    	<div class="msgShow wrapWidth">
+        	<span class="showHome">您好，欢迎来到<em>中山市安健（圣狮）蔬菜流通中心</em></span>
+            <span class="showUser">欢迎你，管理员：<%=Session["CurrentUser"] %>&nbsp;&nbsp;|&nbsp;&nbsp;<%=Html.ActionLink("退出", "Exit", "Login")%></span>
+        </div>
+    </div>
+    
+    <!--header头部-->
+	<div class="header">
+    	<div class="headerbg"><!--因为有两个背景图，所以有这两个层-->
+            <!--头部的内容，包括logo、搜索、热线电话-->
+            <div class="headerContent wraplWidth">
+            	<div class="logo"><a></a></div>
+                <div class="search">
+                	<!--定位搜索框div-->
+                	<div class="searchDiv">
+                        <div class="searchDivLeft">
+                        </div>
+                        <div class="searchDivInput">
+                        	<input type="text" value="请输入要查询的菜名" />
+                        </div>
+                        <div class="searchDivBtn"><a></a></div>
+                    </div>
+                </div>
+                <div class="phone">
+                	<b>如有问题请拨打热线电话:</b>
+                    <span>0760&nbsp;-&nbsp;88301982</span>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <!--nav导航栏-->
+            <div class="nav wrapWidth">
+            	<!--显示头，有些角色没有这个，可以删掉它-->
+            	<div class="navHead">
+                	<a>管理中心</a>
+                </div>
+                <!--导航栏-->
+                 <div class="list">
+                    <ul>
+                     <li id="orderMain"><%=Html.ActionLink("下订单首页", "TakeOrder", "TakeOrder")%></li>
+                      <li id="orderSearch"><%=Html.ActionLink("订单处理", "OrderSearch", "OrderManager")%></li>
+                      <li id="managerCenter" class="currentList"><%=Html.ActionLink("管理中心", "AddVegetable", "ManagerCenter")%></li>
+                      <li id="dataAnalyse"><%=Html.ActionLink("数据统计", "DayDataAnalyse", "DataCenter")%></li>
+                    </ul> 
+                 </div>
+            </div>
+    	</div>
+    </div>
+    
+    <div class="clear"></div>
+<!--content主体-->
+    <div class="contentWholesale wrapWidth">
+    	<!--侧边栏-->
+    	<div class="contentWholesalerLeft"> 
+            	<div class="manageCenter">
+                
+                	<div class="manage">
+                    	<img class="minIcon" src="../../../Content/Image/pagesImg/icon.jpg"  align="middle" />
+                    	<%=Html.ActionLink("蔬菜管理", "AddVegetable", "ManagerCenter")%>
+                    </div>
+                    <div class="manageList">
+                        <ul>
+                          <li><%=Html.ActionLink("品种管理", "AddVegetable", "ManagerCenter")%></li>
+                          <li><%=Html.ActionLink("添加&恢复", "DeleteAndRestore", "ManagerCenter")%></li>
+                          <li><%=Html.ActionLink("分类管理", "SortManagement", "ManagerCenter")%></li>
+                          <li><%=Html.ActionLink("利润管理", "EarnManagement", "ManagerCenter")%></li>
+                        </ul> 
+                    </div><hr class="hrLine" />
+                    
+                    <div class="manage">
+                    	<img class="minIcon"  src="../../../Content/Image/pagesImg/icon.jpg" align="middle" />
+                    	<%=Html.ActionLink("企业管理", "HotelManagement", "ManagerCenter")%>
+                    </div>
+                    <div class="manageList">
+                        <ul>
+                          <li><%=Html.ActionLink("客户管理", "HotelManagement", "ManagerCenter")%></li>
+                          <li><%=Html.ActionLink("部门管理", "DepartmentManagement", "ManagerCenter")%></li>
+                        </ul> 
+                    </div><hr class="hrLine" />
+                    
+                     <div class="manage">
+                     	<img class="minIcon" src="../../../Content/Image/pagesImg/icon.jpg"  align="middle" />
+                    	<%=Html.ActionLink("个人信息管理", "PersonMsg", "ManagerCenter")%>
+                  </div>
+                    <div class="manageList">
+                        <ul>
+                        </ul> 
+                    </div>
+                    
+                </div>
+         </div>
+            <!--contentRight内容页-->
+        <div class="contentWholesalerRight">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>    
+        <div class="clear"></div>
+    </div>
+    
+    
+    <!--line分隔线2  -->
+    <hr class="line" />
+    
+    <!--footer页脚-->
+     <div class="footer wrapWidth" >
+    	<div class="about">
+        	<a>关于我们</a>|
+            <a>广告服务</a>|
+            <a>供应商服务</a>|
+            <a>团购服务</a>|
+            <a>诚聘英才</a>|
+            <a>法律声明</a>
+        </div>
+        <div class="about">
+        	<font>客服电话：0760-88301982</font>
+        	<font>手机：15017338764</font>
+        	<font>E-mail：zsanjian@163.com</font>
+        	<font>地址：中山市沙溪圣狮松利基</font>
+        </div>
+        <div class="about">
+        	<font>版权所有&copy;2012************</font>
+        	<font>技术支持：xphp办公室</font>
+        	<font>粤ICP备 ************</font>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript" language="javascript" >
+    
+    function setNavigationCSS() {
+        var id="<%=ViewData["LiId"] %>";
+        document.getElementById(id).className="currentList";
+    }
+    window.onload=setNavigationCSS;
+</script>
